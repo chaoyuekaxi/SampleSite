@@ -16,10 +16,10 @@ header {
 
   header h1{
     position: absolute;
-    top: 3rem;
-    left: 3rem;
-    font-size: 2rem;
-    color: white;
+     top: 3rem;
+     left: 30rem;
+     font-size: 2rem;
+     color: white;
   }
 
 nav {
@@ -40,12 +40,13 @@ nav {
     color: yellow;
   }
 
-main{
-  display: flex;
-  flex-direction: row;
-}
+ main{
+   display: flex;
+   flex-direction: row;
+ }
 
   section{
+    flex: 3;
     padding: 3rem;
     background: #EEE;
   }
